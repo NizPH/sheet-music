@@ -23,10 +23,28 @@ global = {
   d4 g a b4~ |
 
   d8 g fis e d4 <d b> |
-  b8 r8 r2 g4 |
+  b8 r8 r4 g4 c, |
 
   <c a>4 <b g> <b g> a|
-  c, cis d4 d,2 |
+  cis d4 d,2 |
+
+  d,4 d'-. d-. d-. |
+  r1 |
+
+  d4 e,8 gis b d c4-. |
+  r1 |
+
+  c4-. c-. c d,8 f |
+  r1 |
+
+  gis8 b a4 d-. d-.|
+  r1 |
+
+  d8 g fis e d4 \tuplet 3/2 { e8 d c } |
+  r1 |
+  
+  b4 a4 g2 |
+  r1 |
 }
 
 \score {
