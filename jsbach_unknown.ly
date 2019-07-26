@@ -9,7 +9,7 @@ global = {
 }
 
 \parallelMusic #'(rightHand leftHand) {
-  \tempo "Allegretto" 4 = 120
+  \tempo "Moderato" 4 = 108-120
   g4 c-. c-. c-. |
   c4 g' a b4 |
   
