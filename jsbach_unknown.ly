@@ -10,23 +10,23 @@ global = {
 
 \parallelMusic #'(rightHand leftHand) {
   \tempo "Moderato" 4 = 108-120
-  g4 c-. c-. c-. |
-  c4 g' a b4 |
+  d4 g-. g-. g-. |
+  d4 g a b4 |
   
-  c4 g8 c e c d4-. |
+  g4 d8 g b g a4-. |
   g2 g,4 c |
   
-  d4-. d-. d g,8 d' |
+  a4-. a-. a d,8 a' |
   d4 e c2 |
 
-  f8 d e4 g4-. g-. |
-  c4 g' a b4 |
-  
-  g8 c b a g4 <g e> |
-  r1 |
+  c8 a b4 d-. d-. |
+  d4 g a b4~ |
 
-  <f d>4 <e c> <e c> d4 |
-  r1 |
+  d8 g fis e d4 <d b> |
+  b8 r8 r2 g4 |
+
+  <c a>4 <b g> <b g> a|
+  c, cis d4 d,2 |
 }
 
 \score {
@@ -34,9 +34,7 @@ global = {
     \new Staff {
       \global
       <<
-        \transpose g d {
-          \relative c'' \rightHand
-       }
+        \relative c' \rightHand
       >>
     }
     \new Staff {
