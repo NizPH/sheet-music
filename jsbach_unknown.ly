@@ -9,26 +9,24 @@ global = {
 }
 
 \parallelMusic #'(rightHand leftHand) {
+  \tempo "Allegretto" 4 = 120
   g4 c-. c-. c-. |
-  r4 c g' a |
+  c4 g' a b4 |
   
   c4 g8 c e c d4-. |
-  b4 a r g, |
+  g2 g,4 c |
   
   d4-. d-. d g,8 d' |
-  c2 c |
+  d4 e c2 |
 
   f8 d e4 g4-. g-. |
-  c2 c |
+  c4 g' a b4 |
   
-  g4-. g8 c b a c4 |
-  c2 c |
+  g8 c b a g4 <g e> |
+  r1 |
 
-  <c a>4 <b g> <a f> <g e> |
-  c2 c |
-
-  f4 r2 r4
-  c2 c |
+  <f d>4 <e c> <e c> d4 |
+  r1 |
 }
 
 \score {
